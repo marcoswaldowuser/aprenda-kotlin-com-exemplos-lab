@@ -1,5 +1,3 @@
-// [Template no Kotlin Playground](https://pl.kotl.in/WcteahpyN)
-
 enum class Nivel { BASICO, INTERMEDIARIO, DIFICIL }
 
 class Usuario(val nome:String, val email:String, val numerodetelefone:String, val idade:Int)
@@ -25,14 +23,14 @@ fun main() {
     val GradeCurricular6 = ConteudoEducacional("Técnicas para programção kotlin segura", 35)
     
     val curso = Formacao("Programador Full-stack kotlin", listOf(GradeCurricular1,
-                                                             GradeCurricular2,
-                                                             GradeCurricular3,
-                                                             GradeCurricular4,
-                                                             GradeCurricular5,
-                                                             GradeCurricular6))
-    
+	                                                         GradeCurricular2,
+	                                                         GradeCurricular3,
+	                                                         GradeCurricular4,
+	                                                         GradeCurricular5,
+	                                                         GradeCurricular6))
+	    
     var Aluno1 = Usuario("Pedro","Pedropab@outlook.com","579325641",19)
-	var Aluno2 = Usuario("Jonas","Jonasapoc@outlook.com","579325641",29)
+    var Aluno2 = Usuario("Jonas","Jonasapoc@outlook.com","579325641",29)
     
     curso.matricular(Aluno1)
     curso.matricular(Aluno2)
